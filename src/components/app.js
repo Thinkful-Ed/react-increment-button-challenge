@@ -1,7 +1,8 @@
 import React from 'react';
 import IncrementButton from './increment-button';
+import {hot} from "react-hot-loader";
 
-export default class App extends React.Component {
+class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -20,3 +21,5 @@ export default class App extends React.Component {
         );
     }
 }
+
+export default hot(module)(App);
