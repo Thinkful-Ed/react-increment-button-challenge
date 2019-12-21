@@ -12,6 +12,7 @@ export default class App extends React.Component {
     handleClicks = () => {
         console.log('button clicked');
     };
+    
 
     render() {
         return (
